@@ -1,17 +1,39 @@
 ---
 layout: default
 ---
+<div class="main-wrapper">
+    <section class="section summary-section">
+      <article class="post">
+        <h1>{{ page.title }}</h1>
 
-<article class="post">
-  <h1>{{ page.title }}</h1>
+        <div class="entry">
+          {{ content }}
+        </div>
 
-  <div class="entry">
-    {{ content }}
+        <div class="date">
+          Written on {{ page.date | date: "%B %e, %Y" }}
+        </div>
+
+        {% include disqus.html %}
+      </article>
+    </section>
+</div>
+
+<!-- Side blog  -->
+<div class="side-blog">
+  <h2 class="section-title"><i class="fa fa-book"></i>Journal</h2>
+  <div class="posts">
+    {% for post in site.posts %}
+      <article class="post">
+
+        <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+        <div class="entry">
+          {{ post.excerpt }}
+        </div>
+
+        <i><a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a></i>
+      </article>
+    {% endfor %}
   </div>
-
-  <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
-  </div>
-
-  {% include disqus.html %}
-</article>
+</div>
