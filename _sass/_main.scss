@@ -186,6 +186,21 @@ p {
   // padding-left: 300px;
 
   background: #fff;
+  .entry{
+    .videoiframe{
+      position: relative;
+    	padding-bottom: 56.25%; /* 16:9 */
+    	padding-top: 25px;
+    	height: 0;
+       iframe {
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+       }
+    }
+  }
   .section-title {
     position: relative;
 
@@ -296,6 +311,7 @@ p {
   .entry {
     float: left;
     margin-bottom: 15px;
+
   }
   .section-title{
     position: relative;
