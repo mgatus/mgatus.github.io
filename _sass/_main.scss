@@ -1,7 +1,8 @@
 /* styles.css */
 /* ======= Base ======= */
 
-$maincolor:#863958;
+$maincolor: #863958;
+// $maincolor: #2E3F4C;
 
 body {
   padding: 0;
@@ -304,7 +305,7 @@ p {
 
     text-transform: uppercase;
 
-    color: #863958;
+    color: $maincolor;
 
     font-size: 20px;
     font-weight: 500;
@@ -325,7 +326,7 @@ p {
         -webkit-border-radius: 50%;
         -moz-border-radius: 50%;
         border-radius: 50%;
-        background: #863958;
+        background: $maincolor;
         -webkit-background-clip: padding-box;
         -moz-background-clip: padding;
         background-clip: padding-box;
