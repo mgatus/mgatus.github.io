@@ -1,13 +1,15 @@
 ---
 layout: default
+image:
 ---
 
 <div class="main-wrapper">
     <section class="section summary-section">
         <article class="post">
-            <h1>{{ page.title }}</h1>
-
+            <h1 style="font-size:30px;">{{ page.title }}</h1>
+            <br>
             <div class="entry">
+                <img src="{{ page.image }}" />
                 {{ content }}
             </div>
 
@@ -30,6 +32,7 @@ layout: default
             <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
             <div class="entry">
+                <img src="{{ post.image }}" />
                 {{ post.excerpt }}
             </div>
 

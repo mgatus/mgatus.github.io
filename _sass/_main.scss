@@ -277,13 +277,24 @@ p {
 }
 
 .side-blog {
+  width: 30%;
   padding: 40px;
 
   background: #fff;
 
-  width: 30%;
   @include mobile{
     width: 100%;
+  }
+  img {
+    float: left;
+
+    max-width: 30%;
+    // max-height: 40%;
+    padding: 20px 15px 8px 0;
+  }
+  .entry {
+    float: left;
+    margin-bottom: 15px;
   }
   .section-title{
     position: relative;
