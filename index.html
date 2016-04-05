@@ -216,18 +216,18 @@ layout: default
 
         <!-- This loops through the paginated posts -->
         <div class="grid">
-          {% for post in paginator.posts %}
-          <a href="{{ site.baseurl }}{{ post.url }}">
-            <figure class="effect-milo">
-                <img src="{{ post.image }}" />
-                <figcaption>
-                    <h2>{{ post.title }}</h2>
-                    <p>{{ post.excerpt }}</p>
-                    <!-- <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a> -->
-                </figcaption>
-            </figure>
-          </a>
-          {% endfor %}
+            {% for post in paginator.posts %}
+            <a href="{{ site.baseurl }}{{ post.url }}">
+                <figure class="effect-milo">
+                    <img src="{{ post.image }}" />
+                    <figcaption>
+                        <h2>{{ post.title }}</h2>
+                        <p>{{ post.excerpt }}</p>
+                        <!-- <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a> -->
+                    </figcaption>
+                </figure>
+            </a>
+            {% endfor %}
         </div>
 
         <!-- Pagination links -->
