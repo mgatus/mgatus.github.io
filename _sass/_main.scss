@@ -187,16 +187,21 @@ p {
   // padding-left: 300px;
 
   background: #fff;
+  article h1{
+    margin-bottom: 15px;
+  }
   .entry{
     .videoiframe{
       position: relative;
-    	padding-bottom: 56.25%; /* 16:9 */
-    	padding-top: 25px;
+
     	height: 0;
+    	padding-top: 25px;
+    	padding-bottom: 56.25%; /* 16:9 */
        iframe {
          position: absolute;
          top: 0;
          left: 0;
+
          width: 100%;
          height: 100%;
        }
@@ -307,10 +312,11 @@ p {
 
     max-width: 30%;
     // max-height: 40%;
-    padding: 20px 15px 8px 0;
+    // padding: 20px 15px 8px 0;
   }
   .entry {
     float: left;
+
     margin-bottom: 15px;
 
   }
@@ -400,6 +406,242 @@ p {
   }
   .fa-heart {
     color: #fb866a;
+  }
+}
+
+.grid {
+
+}
+
+/* Common style */
+.grid {
+  figure {
+    position: relative;
+
+    float: left;
+    overflow: hidden;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 190px;
+    margin: 10px 1%;
+
+    cursor: pointer;
+    text-align: center;
+
+    background: #fff;
+    img {
+      position: relative;
+
+      display: block;
+
+      max-width: 100%;
+      min-height: 100%;
+
+      opacity: 0.8;
+    }
+    figcaption {
+      position: absolute;
+      top: 0;
+      left: 0;
+
+      width: 100%;
+      height: 100%;
+      padding: 1em;
+
+      text-transform: uppercase;
+
+      color: #fff;
+
+      font-size: 1.25em;
+
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      &::before, &::after {
+        pointer-events: none;
+      }
+      > a {
+        position: absolute;
+        z-index: 1000;
+        top: 0;
+        left: 0;
+
+        width: 100%;
+        height: 100%;
+
+        white-space: nowrap;
+        text-indent: 200%;
+
+        opacity: 0;
+
+        font-size: 0;
+      }
+    }
+    h2 {
+      margin: 0;
+
+      word-spacing: 0.1em;
+
+      font-weight: 300;
+      span {
+        font-weight: 800;
+      }
+    }
+    p {
+      margin: 0;
+
+      letter-spacing: 1px;
+
+      font-size: 68.5%;
+    }
+  }
+}
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+
+/*---------------*/
+/***** Milo *****/
+/*---------------*/
+
+figure.effect-milo {
+  background: #2e5d5a;
+  img {
+    width: -webkit-calc(100% + 60px);
+    width: calc(100% + 60px);
+    max-width: none;
+
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(-30px, 0, 0) scale(1.12);
+    transform: translate3d(-30px, 0, 0) scale(1.12);
+
+    opacity: 1;
+
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  &:hover img {
+    -webkit-transform: translate3d(0, 0, 0) scale(1);
+    transform: translate3d(0, 0, 0) scale(1);
+
+    opacity: 0.5;
+  }
+  h2 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    padding: 1em 1.2em;
+  }
+  p {
+    overflow: hidden;
+
+    width: 50%;
+    max-height: 10em;
+    padding: 0 10px 0 0;
+
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(-40px, 0, 0);
+    transform: translate3d(-40px, 0, 0);
+    text-align: right;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+
+    opacity: 0;
+    border-right: 1px solid #fff;
+
+    line-height: 1.5em;
+  }
+  &:hover p {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+
+    opacity: 1;
+  }
+}
+
+/*---------------*/
+/***** Romeo *****/
+/*---------------*/
+
+figure.effect-romeo {
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+  img {
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(0, 0, 300px);
+    transform: translate3d(0, 0, 300px);
+  }
+  &:hover img {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+
+    opacity: 0.6;
+  }
+  figcaption {
+    &::before, &::after {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+
+      width: 80%;
+      height: 1px;
+
+      content: '';
+      -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+      transition: opacity 0.35s, transform 0.35s;
+      -webkit-transform: translate3d(-50%, -50%, 0);
+      transform: translate3d(-50%, -50%, 0);
+
+      background: #fff;
+    }
+  }
+  &:hover figcaption {
+    &::before {
+      -webkit-transform: translate3d(-50%, -50%, 0) rotate(45deg);
+      transform: translate3d(-50%, -50%, 0) rotate(45deg);
+
+      opacity: 0.5;
+    }
+    &::after {
+      -webkit-transform: translate3d(-50%, -50%, 0) rotate(-45deg);
+      transform: translate3d(-50%, -50%, 0) rotate(-45deg);
+
+      opacity: 0.5;
+    }
+  }
+  h2, p {
+    position: absolute;
+    top: 58%;
+    left: 0;
+
+    width: 100%;
+
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+  }
+  h2 {
+    -webkit-transform: translate3d(0, -50%, 0) translate3d(0, -150%, 0);
+    transform: translate3d(0, -50%, 0) translate3d(0, -150%, 0);
+  }
+  p {
+    padding: 0.25em 2em;
+
+    -webkit-transform: translate3d(0, -50%, 0) translate3d(0, 150%, 0);
+    transform: translate3d(0, -50%, 0) translate3d(0, 150%, 0);
+  }
+  &:hover {
+    h2 {
+      -webkit-transform: translate3d(0, -50%, 0) translate3d(0, -100%, 0);
+      transform: translate3d(0, -50%, 0) translate3d(0, -100%, 0);
+    }
+    p {
+      -webkit-transform: translate3d(0, -50%, 0) translate3d(0, 100%, 0);
+      transform: translate3d(0, -50%, 0) translate3d(0, 100%, 0);
+    }
   }
 }
 

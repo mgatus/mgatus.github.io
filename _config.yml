@@ -50,7 +50,7 @@ url: http://mgatus.github.io
 baseurl: ""
 
 #Pagination
-paginate: 1
+paginate: 5
 
 #Excerpt separator
 excerpt_separator: --more--  # you can specify your own separator, of course.
