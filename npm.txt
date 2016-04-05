@@ -1,0 +1,3 @@
+npm init
+sudo npm install -g gulp
+npm install --save-dev gulp-shell lodash gulp browser-sync
