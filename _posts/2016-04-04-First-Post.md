@@ -5,7 +5,7 @@ image: /images/featured/salsa.jpg
 ---
 
 Beargrease is our fatbike designed to excel when speed matters—simple as that.
-
+--more--
 Fatbike doesn’t have to mean slow bike. It’s lightweight, agile, and elegant, with all excesses removed. Whether it is a 40-mile weekend race or the 1,000-mile Iditarod Invitational in Alaska, Beargrease is your best bet for getting from point A to point B fast, over whatever terrain stands between.
 
 <iframe width="100%" src="https://www.youtube.com/embed/ltrMfT4Qz5Y" frameborder="0" allowfullscreen></iframe>
