@@ -52,6 +52,9 @@ baseurl: ""
 #Pagination
 paginate: 1
 
+#Excerpt separator
+excerpt_separator: --more--  # you can specify your own separator, of course.
+
 #
 # !! You don't need to change any of the configuration flags below !!
 #
