@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Killing Joke
-permalink: killing-joke.html
+permalink: /posts/killing-joke.html
 description: Created by Moore as his own take on Joker's source and psychology
 date: 2016-04-05 21:42:44 +08:00
 image:  /images/featured/joker.jpg
@@ -16,6 +16,3 @@ Created by Moore as his own take on Joker's source and psychology,[1] the story 
 </div>
 
 Many critics consider the graphic novel to be the definitive Joker story and one of the best Batman stories ever published. The comic won the Eisner Award for 'Best Graphic Album' in 1989 and appeared on The New York Times Best Seller List in May 2009. In 2006, The Killing Joke was reprinted as part of the trade paperback DC Universe: The Stories of Alan Moore. In 2008, DC Comics reprinted the story in a deluxe hardcover edition, which features new coloring by Bolland, with a more somber, realistic, and subdued palette than the original. Elements of The Killing Joke have inspired or been incorporated into other aspects of Batman media, such as films and video games.
-
-
-

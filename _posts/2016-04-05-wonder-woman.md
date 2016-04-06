@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Wonder Woman
-permalink: wonder-woman.html
+permalink: /posts/wonder-woman.html
 description: Wonder Woman is a fictional character appearing in American comic books
 date: 2016-04-05 22:57:58 +08:00
 image: /images/featured/wonder-woman.jpg
@@ -12,4 +12,3 @@ Wonder Woman is a fictional character appearing in American comic books publishe
 Wonder Woman was created by the American psychologist and writer William Moulton Marston[1] and drawn by H. G. Peter. The character first appeared in All Star Comics #8 in December 1941 and first cover-dated on Sensation Comics #1, January 1942. The Wonder Woman title has been published by DC Comics almost continuously except for a brief hiatus in 1986.[2] Her depiction as a heroine fighting for justice, love, peace, and gender equality has led to Wonder Woman being widely considered a feminist icon.[3][4][5] Created during World War II, the character was initially depicted fighting Axis military forces as well as an assortment of colorful supervillains, although over time her stories came to place greater emphasis on characters, deities, and monsters from Greek mythology. In the decades since her debut, Wonder Woman has gained a formidable cast of enemies bent on eliminating the Amazon, including classic villains such as Ares, Cheetah, Circe, Doctor Psycho and Giganta, along with more recent adversaries such as the First Born. Wonder Woman has also regularly appeared in comic books featuring the superhero teams Justice Society (from 1941) and Justice League (from 1960).[6]
 
 In addition to the comics, the character has appeared in other media; most notably, the 1975–1979 Wonder Woman TV series starring Lynda Carter, as well as animated series such as the Super Friends and Justice League. Since Carter's television series, studios struggled to introduce a new live-action Wonder Woman to audiences, although the character continued to feature in a variety of toys and merchandise, as well as animated adaptations of DC properties, including a direct-to-DVD animated feature. Attempts to return Wonder Woman to television have included a pilot for NBC in 2011, closely followed by another stalled production for The CW.[7][8] Gal Gadot portrayed Wonder Woman in the 2016 film Batman v Superman: Dawn of Justice, marking the character's feature film debut after over 70 years of history.[9] Gadot will also star in the character's first solo live-action film Wonder Woman, slated to be released on June 23, 2017.[10]
-

@@ -32,59 +32,18 @@
   </head>
 
   <body>
-    <div class="wrapper">
-        <div class="sidebar-wrapper">
-            <div class="profile-container">
-                <a href="{{ site.baseurl }}/"><img class="profile" src="{{ site.baseurl }}/images/profile.jpg" alt="" /></a>
-                <h1 class="name">{{ site.name }} </h1>
-                <h3 class="tagline">{{ site.description }}</h3>
-            </div><!--//profile-container-->
 
-            <div class="contact-container container-block">
-                <ul class="list-unstyled contact-list">
-                    <li class="email"><i class="fa fa-envelope"></i><a href="mailto:{{ site.footer-links.email }}">mrvgatus@gmail(dot)com</a></li>
-                    <!-- <li class="phone"><i class="fa fa-phone"></i><a href="tel:0123 456 789">0123 456 789</a></li> -->
-                    <li class="website"><i class="fa fa-globe"></i><a href="http:/mgatus.github.io/" target="_blank">mgatus.github.io</a></li>
-                    <li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://www.linkedin.com/in/{{ site.footer-links.linkedin }}" target="_blank">linkedin.com/in/mgatus</a></li>
-                    <li class="github"><i class="fa fa-github"></i><a href="https://github.com/{{ site.footer-links.github }}" target="_blank">github.com/mgatus</a></li>
-                    <li class="twitter"><i class="fa fa-facebook"></i><a href="https://www.facebook.com/{{ site.footer-links.facebook }}" target="_blank">@mgatus</a></li>
-                </ul>
-            </div><!--//contact-container-->
-            <div class="education-container container-block">
-                <h2 class="container-block-title">Education</h2>
-                <div class="item">
-                    <h4 class="degree">BSc in Computer Science</h4>
-                    <h5 class="meta">Holy Angel University</h5>
-                    <div class="time">2002 - 2006</div>
-                </div><!--//item-->
-            </div><!--//education-container-->
+        <div class="wrapper">
 
-            <div class="languages-container container-block">
-                <h2 class="container-block-title">Languages</h2>
-                <ul class="list-unstyled interests-list">
-                    <li>Filipino <span class="lang-desc">(Native)</span></li>
-                    <li>English <span class="lang-desc">(Professional)</span></li>
-                    <li>Kryptonian <span class="lang-desc">(Intergalactic)</span></li>
-                </ul>
-            </div><!--//interests-->
-
-            <div class="interests-container container-block">
-                <h2 class="container-block-title">Interests</h2>
-                <ul class="list-unstyled interests-list">
-                    <li>Cycling</li>
-                    <li>Fighting</li>
-                    <li>Cooking</li>
-                    <li>Movies</li>
-                </ul>
-            </div><!--//interests-->
-
-        </div><!--//sidebar-wrapper-->
+        {% include sidebar-wrapper.html %}
 
         {{ content }}
 
-    <!-- Javascript -->
-      <!-- Analytics -->
-      {% include analytics.html %}
+        </div>
+
+        <!-- Javascript -->
+        <!-- Analytics -->
+        {% include analytics.html %}
 
       <script type="text/javascript" src="{{ site.baseurl }}/plugins/jquery-1.11.3.min.js"></script>
       <script type="text/javascript" src="{{ site.baseurl }}/plugins/bootstrap/js/bootstrap.min.js"></script>
