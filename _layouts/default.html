@@ -80,22 +80,16 @@
 
         </div><!--//sidebar-wrapper-->
 
-
-
-      {{ content }}
-
-
-
-
-
-
-    {% include analytics.html %}
+        {{ content }}
 
     <!-- Javascript -->
-    <script type="text/javascript" src="{{ site.baseurl }}/plugins/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="{{ site.baseurl }}/plugins/bootstrap/js/bootstrap.min.js"></script>
-    <!-- custom js -->
-    <script type="text/javascript" src="{{ site.baseurl }}/main.js"></script>
+      <!-- Analytics -->
+      {% include analytics.html %}
+
+      <script type="text/javascript" src="{{ site.baseurl }}/plugins/jquery-1.11.3.min.js"></script>
+      <script type="text/javascript" src="{{ site.baseurl }}/plugins/bootstrap/js/bootstrap.min.js"></script>
+      <!-- custom js -->
+      <script type="text/javascript" src="{{ site.baseurl }}/main.js"></script>
 
   </body>
 </html>

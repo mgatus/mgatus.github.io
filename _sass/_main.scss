@@ -118,6 +118,8 @@ p {
     }
     li {
       margin-bottom: 15px;
+      display: flex;
+      font-size: 12px;
       &:last-child {
         margin-bottom: 0;
       }
@@ -493,7 +495,7 @@ p {
 
       letter-spacing: 1px;
 
-      font-size: 68.5%;
+      font-size: 50%;
     }
   }
 }
@@ -553,12 +555,16 @@ figure.effect-milo {
     border-right: 1px solid #fff;
 
     line-height: 1.5em;
+
   }
   &:hover p {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
 
     opacity: 1;
+    // @include mobile {
+    //   display: none;
+    // }
   }
 }
 
@@ -623,6 +629,7 @@ figure.effect-romeo {
     -webkit-transition: -webkit-transform 0.35s;
     transition: transform 0.35s;
   }
+
   h2 {
     -webkit-transform: translate3d(0, -50%, 0) translate3d(0, -150%, 0);
     transform: translate3d(0, -50%, 0) translate3d(0, -150%, 0);
