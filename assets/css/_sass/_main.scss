@@ -1,6 +1,7 @@
 /* styles.css */
 /* ======= Base ======= */
-$maincolor: #863958; // $maincolor: #2E3F4C;
+$maincolor: #863958;
+// $maincolor: #2E3F4C;
 // $maincolor: #333;
 body {
     padding: 0;
@@ -94,7 +95,7 @@ p {
             text-align: center;
             color: #fff;
             background: rgba(0, 0, 0, 0.2);
-            
+
             .profile {
                 margin-bottom: 15px;
                 border-radius: 50%;
