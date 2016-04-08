@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Wonder Woman
-permalink: /posts/wonder-woman.html
+permalink: /posts/wonder-woman/
 description: Wonder Woman is a fictional character appearing in American comic books
 date: 2016-04-05 22:57:58 +08:00
 image: /images/featured/wonder-woman.jpg

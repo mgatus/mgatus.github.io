@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Killing Joke
-permalink: /posts/killing-joke.html
+permalink: /posts/killing-joke/
 description: Created by Moore as his own take on Joker's source and psychology
 date: 2016-04-05 21:42:44 +08:00
 image:  /images/featured/joker.jpg
