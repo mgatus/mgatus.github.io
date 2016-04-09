@@ -5,6 +5,7 @@ permalink: /posts/wonder-woman/
 description: Wonder Woman is a fictional character appearing in American comic books
 date: 2016-04-05 22:57:58 +08:00
 image: /images/featured/wonder-woman.jpg
+meta: Wonder Woman is a fictional character appearing in American comic books.
 ---
 
 Wonder Woman is a fictional character appearing in American comic books published by DC  Comics. --more-- [1] The character is a warrior princess of the Amazons (which are based on the Amazons of Greek mythology) and is known in her homeland as Princess Diana of Themyscira. When outside her homeland she is known by the secret identity Diana Prince. Wonder Woman is gifted with a wide range of superhuman powers and superior combat and battle skills. She possesses an arsenal of weapons, including the Lasso of Truth, a pair of indestructible bracelets, a tiara which serves as a projectile, and (in older stories) a range of devices based on Amazon technology.

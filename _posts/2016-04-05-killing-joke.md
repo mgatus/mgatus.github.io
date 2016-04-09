@@ -5,6 +5,7 @@ permalink: /posts/killing-joke/
 description: Created by Moore as his own take on Joker's source and psychology
 date: 2016-04-05 21:42:44 +08:00
 image:  /images/featured/joker.jpg
+meta: Batman&#58; The Killing Joke is a 1988 one-shot graphic novel.
 ---
 
 Batman: The Killing Joke is a 1988 one-shot graphic novel --more-- featuring the characters Batman and the Joker written by Alan Moore, illustrated by Brian Bolland, and published by DC Comics. Set in the fictional U.S. city of Gotham, Batman: The Killing Joke provides an origin story for the supervillain the Joker, loosely adapted from the 1951 story arc "The Man Behind the Red Hood!". Taking place over two timelines, The Killing Joke depicts the Joker attempting to drive Jim Gordon insane and Batman's desperate attempt to stop him.

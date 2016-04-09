@@ -2,11 +2,41 @@
 layout: default
 ---
 
-<article class="page">
+<div class="main-wrapper">
+    <section class="section summary-section">
+        <article class="post">
+            <h1 style="font-size:30px;">{{ page.title }}</h1>
+            <br>
+            <div class="entry">
+                <img src="{{ page.image }}" /> {{ content }}
+            </div>
 
-  <h1>{{ page.title }}</h1>
+            <div class="date">
+                Written on {{ page.date | date: "%B %e, %Y" }}
+            </div>
 
-  <div class="entry">
-    {{ content }}
-  </div>
-</article>
+            {% include disqus.html %}
+        </article>
+
+    </section>
+</div>
+
+<!-- Side blog  -->
+<div class="side-blog">
+  <h2 class="section-title"><i class="fa fa-book"></i>Journal</h2>
+  <div class="posts">
+      <div class="grid">
+          {% for post in site.posts %}
+          <a href="{{ site.baseurl }}{{ post.url }}">
+              <figure class="effect-milo">
+                  <img src="{{ post.image }}" />
+                  <figcaption>
+                      <h2>{{ post.title }}</h2>
+                      <p>{{ post.meta }}</p>
+                      <!-- <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a> -->
+                  </figcaption>
+              </figure>
+          </a>
+          {% endfor %}
+      </div>
+</div>
