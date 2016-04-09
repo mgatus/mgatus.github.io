@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bataan Killer Loop
-images: /images/featured/killerloop.png
+image: /images/featured/killerloop.png
 meta: Killer Loop Description
 date: 2016-04-09 11:15:00 +08:00
 ---
