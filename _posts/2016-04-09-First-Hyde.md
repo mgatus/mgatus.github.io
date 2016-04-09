@@ -1,6 +1,7 @@
 ---
 layout: post
 title: First Hyde
+meta: Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 image: /images/featured/Hyde.png
 ---
 
