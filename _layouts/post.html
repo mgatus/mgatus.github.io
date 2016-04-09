@@ -8,8 +8,12 @@ image:
         <article class="post">
             <h1 style="font-size:30px;">{{ page.title }}</h1>
             <br>
-            <div class="entry">
+            <div class="entry ">
+              {% if page.image %}
                 <img src="{{ page.image }}" />
+              {% else %}
+                <img src="{{ site.baseurl }}/images/featured/default.jpg" />
+              {% endif %}
                 {{ content }}
             </div>
 

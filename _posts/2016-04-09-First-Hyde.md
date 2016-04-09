@@ -1,7 +1,7 @@
 ---
 layout: post
 title: First Hyde
-meta: Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+meta: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 image: /images/featured/Hyde.png
 ---
 
@@ -14,4 +14,3 @@ Ut ac neque ac erat viverra efficitur faucibus vitae nunc. Suspendisse ornare mi
 Cras at ante auctor, rutrum nisl ac, semper nibh. Quisque iaculis sem et pulvinar cursus. Morbi consectetur cursus eros ac tincidunt. Cras vel tortor placerat, feugiat enim nec, dignissim enim. Etiam mollis lorem ut justo egestas, sed pellentesque odio mollis. Maecenas lobortis finibus arcu, laoreet bibendum magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur aliquet, ligula sit amet lobortis placerat, justo massa porttitor risus, sit amet ornare nibh dolor sit amet ante. Fusce ipsum nibh, placerat eget nisi at, pellentesque suscipit dolor. Vestibulum imperdiet tortor purus, eget imperdiet ipsum consectetur et. Sed non cursus massa, nec tincidunt leo. Phasellus sed lacus suscipit, malesuada lorem vitae, vulputate orci. Nam elementum tortor semper gravida aliquam. Vivamus non erat in dolor eleifend pretium.
 
 Maecenas tempus sapien dignissim auctor hendrerit. Nullam dictum lacus at metus porta, nec imperdiet quam elementum. Sed vel rutrum neque. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec a nibh quis justo sollicitudin bibendum at nec justo. Sed ultrices est urna, vulputate aliquet tellus pulvinar et. Aliquam erat volutpat. Etiam maximus accumsan volutpat. Mauris vel velit at neque efficitur blandit. Duis tempus quam at neque ullamcorper mollis. Vivamus vel lobortis arcu. Vivamus ipsum arcu, fermentum in magna vitae, maximus malesuada ex. Vestibulum euismod congue tincidunt. Nunc porttitor nisl sit amet luctus posuere.
-
