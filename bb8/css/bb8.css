@@ -1,0 +1,920 @@
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,400);
+@import url(https://fonts.googleapis.com/css?family=Anton);
+html
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: 'Fira Sans', sans-serif; 
+
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+
+    margin: 0;
+    padding: 0;
+
+    background: #fff;
+
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+            align-items: center;
+}
+
+a
+{
+    text-decoration: none;
+
+    color: pink;
+}
+
+*
+{
+    box-sizing: border-box;
+}
+
+div
+{
+    display: block;
+}
+
+*:before,
+*:after
+{
+    box-sizing: border-box;
+}
+
+.workplace
+{
+    position: relative;
+
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+            flex-direction: column; 
+
+    width: 100vw;
+    height: 100vh;
+
+    background: #fff;
+
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+            align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+}
+.workplace .message
+{
+    font-family: 'Anton', sans-serif;
+    font-size: 24px;
+
+    position: absolute;
+    top: -170px;
+    right: -640px;
+
+    -webkit-transform: rotate(-14deg);
+            transform: rotate(-14deg); 
+
+    color: pink;
+}
+.workplace .contents p
+{
+    font-size: 11px;
+}
+.workplace .line-dust
+{
+    position: relative;
+    top: 217px; 
+    left: -255px;
+}
+.workplace .line-movement
+{
+    position: relative;
+}
+.workplace .line-movement .line-one
+{
+    position: absolute;
+    top: -99px;
+    left: 80px; 
+
+    width: 10px;
+    height: 10px;
+
+    border-radius: 50%;
+    background: #494c5f;
+}
+.workplace .line-movement .line-one:after
+{
+    position: absolute;
+    top: 1px;
+    left: 17px; 
+
+    width: 46px;
+    height: 8px;
+
+    content: '';
+
+    border: none;
+    border-radius: 4px;
+    background: #494c5f;
+}
+.workplace .line-movement.two
+{
+    top: 100px;
+}
+.workplace .line-movement.two .line-one
+{
+    position: absolute;
+    top: -140px;
+    left: -70px;
+
+    width: 20px;
+    height: 8px;
+
+    content: '';
+
+    border: none;
+    border-radius: 4px;
+    background: #494c5f;
+}
+.workplace .line-movement.two .line-one:after
+{
+    position: absolute;
+    top: 0;
+    left: 45px;
+
+    width: 153px;
+    height: 8px;
+
+    content: '';
+
+    border: none;
+    border-radius: 4px;
+    background: #494c5f;
+}
+.workplace .line-movement.three
+{
+    top: 200px;
+    left: 10px;
+}
+.workplace .line-movement.three .line-zero
+{
+    position: absolute;
+    top: -139px;
+    left: -44px;
+
+    width: 10px;
+    height: 10px;
+
+    content: '';
+
+    border: none;
+    border-radius: 50%;
+    background: #494c5f;
+}
+.workplace .line-movement.three .line-one
+{
+    position: absolute;
+    top: -139px;
+    left: -13px;
+
+    width: 26px;
+    height: 8px;
+
+    content: '';
+
+    border: none;
+    border-radius: 4px;
+    background: #494c5f;
+}
+.workplace .line-movement.three .line-one:after
+{
+    position: absolute;
+    top: 0;
+    left: 45px;
+
+    width: 153px;
+    height: 8px;
+
+    content: '';
+
+    border: none;
+    border-radius: 4px;
+    background: #494c5f;
+}
+.workplace .line-movement.four
+{
+    top: 293px;
+    left: 41px;
+}
+.workplace .line-movement.four .line-zero
+{
+    position: absolute;
+    top: -139px;
+    left: -44px;
+
+    width: 13px;
+    height: 13px;
+
+    content: '';
+
+    border: none;
+    border-radius: 50%;
+    background: #494c5f;
+}
+.workplace .line-movement.four .line-one
+{
+    position: absolute;
+    top: -139px;
+    left: -11px;
+
+    width: 26px;
+    height: 13px;
+
+    content: '';
+
+    border: none;
+    border-radius: 4px;
+    background: #494c5f;
+}
+.workplace .line-movement.four .line-one:after
+{
+    position: absolute;
+    top: 0;
+    left: 36px;
+
+    width: 170px;
+    height: 13px;
+
+    content: '';
+
+    border: none;
+    border-radius: 4px;
+    background: #494c5f;
+}
+.workplace .bb8
+{
+    position: relative;
+    z-index: 1; 
+
+    width: 500px;
+}
+.workplace .bb8-head-container
+{
+    position: relative;
+    z-index: 10;
+
+    overflow: hidden;
+
+    width: 450px;
+    height: 160px;
+
+    -webkit-transform: rotate(-12deg);
+            transform: rotate(-12deg);
+}
+.workplace .bb8 .anttenae
+{
+    position: relative;
+    top: 38px;
+    left: 206px;
+
+    width: 6px;
+    height: 30px;
+
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+
+    border-radius: 2px;
+    background: #494c5f;
+}
+.workplace .bb8 .anttenae:after
+{
+    position: absolute;
+    top: -25px;
+    left: 20px;
+
+    width: 6px;
+    height: 49px;
+
+    content: '';
+
+    border-radius: 2px;
+    background: #494c5f;
+}
+.workplace .bb8 .bb8-head
+{
+    position: relative;
+    top: 15%;
+    left: 34%;
+
+    overflow: hidden;
+
+    width: 180px;
+    height: 165px;
+
+    border: 10px solid #494c5f;
+    border-radius: 50%;
+    background: #d4d4d4;
+}
+.workplace .bb8 .bb8-head:after
+{
+    position: absolute;
+    top: -29px;
+    left: 48px; 
+
+    width: 126px;
+    height: 126px;
+
+    content: '';
+
+    border-radius: 50%;
+    background: #fff;
+}
+.workplace .bb8 .bb8-head .bottom-line
+{
+    position: relative;
+    z-index: 1;
+    top: 86px;
+    left: 4px; 
+
+    width: 153px;
+    height: 13px;
+    /* border-top: 7px solid #fff; */
+
+    border-right: 14px solid #494c5f;
+    border-bottom: 1px solid #494c5f;
+    border-left: 3px solid #494c5f;
+    border-radius: 4px;
+    background: #494c5f;
+}
+.workplace .bb8 .bb8-head .bottom-line .side-div
+{
+    position: absolute;
+    top: -1px;
+    left: -10px; 
+
+    width: 18px;
+    height: 11px;
+
+    content: '';
+    -webkit-transform: rotate(27deg);
+            transform: rotate(27deg);
+
+    border-left: 11px solid #494c5f;
+    border-radius: 2px;
+}
+.workplace .bb8 .bb8-head .bottom-line .side-div:after
+{
+    position: absolute;
+    top: -71px;
+    right: -135px;
+
+    width: 18px;
+    height: 11px;
+
+    content: '';
+    -webkit-transform: rotate(-55deg);
+            transform: rotate(-55deg);
+
+    border-left: 13px solid #494c5f;
+    border-radius: 2px;
+}
+.workplace .bb8 .inner-top-lines,
+.workplace .bb8 .inner-bottom-lines
+{
+    position: relative;
+    top: -75px;
+
+    width: 48px;
+    height: 9px;
+
+    border: 2px solid #c16d3e;
+    border-radius: 5px;
+    background: #c16d3e;
+}
+.workplace .bb8 .inner-top-lines:after,
+.workplace .bb8 .inner-bottom-lines:after
+{
+    position: absolute;
+    top: -1px;
+    right: -87px;
+
+    width: 47px;
+    height: 9px;
+
+    content: '';
+
+    border: 2px solid #c16d3e;
+    border-radius: 5px;
+    background: #c16d3e;
+}
+.workplace .bb8 .inner-top-lines.inner-bottom-lines,
+.workplace .bb8 .inner-bottom-lines.inner-bottom-lines
+{
+    top: -26px;
+    left: -113px;
+
+    width: 152px;
+}
+.workplace .bb8 .inner-top-lines.inner-bottom-lines:after,
+.workplace .bb8 .inner-bottom-lines.inner-bottom-lines:after
+{
+    top: -1px;
+    right: -120px;
+
+    width: 33px;
+}
+.workplace .bb8 .eyelens
+{
+    position: absolute;
+    top: -68px;
+    left: 44px;
+
+    overflow: hidden; 
+
+    width: 50px;
+    height: 50px;
+
+    border: 8px solid #494c5f;
+    border-radius: 50%;
+    background: #3c5b6d;
+}
+.workplace .bb8 .eyelens:after
+{
+    position: absolute;
+    top: 28px;
+    left: 54px;
+
+    width: 20px;
+    height: 20px;
+
+    content: '';
+
+    border-radius: 50%; 
+    background: #494c5f;
+}
+.workplace .bb8 .eyelens .innereye
+{
+    position: relative; 
+    top: -8px;
+    left: 6px;
+
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+
+    width: 35px;
+    height: 35px;
+
+    border-radius: 50%;
+    background: #466f83;
+}
+.workplace .bb8 .eyelens .innereye .reflection
+{
+    position: relative;
+    top: 12px;
+    left: 6px; 
+
+    width: 5px;
+    height: 5px;
+
+    border-radius: 50%;
+    background: #fff;
+}
+.workplace .bb8 .eyelens .innereye .reflection:after
+{
+    position: absolute;
+    top: 5px;
+    left: 8px;
+
+    width: 10px;
+    height: 10px;
+
+    content: '';
+
+    border-radius: 50%;
+    background: #fff;
+}
+.workplace .bb8 .shadow-eyelens
+{
+    position: absolute;
+    z-index: -1;
+    top: -65px;
+    left: 35px; 
+
+    width: 50px;
+    height: 50px;
+
+    content: '';
+
+    border-radius: 50%;
+    background: #aeafaa;
+}
+.workplace .bb8 .small-circles
+{
+    position: absolute;
+    top: -18px;
+    left: 45px; 
+
+    width: 10px;
+    height: 10px;
+
+    border-radius: 50%;
+    background: #c16d3e;
+}
+.workplace .bb8 .small-circles:after
+{
+    position: absolute;
+    top: -10px; 
+    left: 48px;
+
+    width: 20px;
+    height: 20px;
+
+    content: '';
+
+    border-radius: 50%;
+    background: #494c5f;
+}
+.workplace .bb8-body-container
+{
+    position: relative;
+    top: -45px;
+    left: 145px;
+
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+    overflow: hidden; 
+
+    width: 447px;
+    width: 280px;
+    height: 280px;
+
+    border-radius: 50%;
+
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+            justify-content: center;
+}
+.workplace .bb8-body-container .clip
+{
+    overflow: hidden; 
+
+    width: 280px;
+    height: 280px;
+
+    border-radius: 50%;
+}
+.workplace .bb8-body-container .shadow
+{
+    position: absolute;
+    z-index: 0;
+    top: -114px;
+    left: -2px;
+
+    width: 500px;
+    height: 500PX;
+
+    -webkit-transform: rotate(119deg);
+            transform: rotate(119deg);
+
+    border: 79px solid rgba(73, 76, 95, .46);
+    border-radius: 50%;
+    background: #fff;
+}
+.workplace .bb8-body-container .shadow:before
+{
+    position: absolute;
+    z-index: 0;
+    top: 310px;
+    left: 58px;
+
+    width: 120px;
+    height: 94px;
+
+    content: '';
+    -webkit-transform: rotate(-139deg);
+            transform: rotate(-139deg);
+
+    border-radius: 50%;
+    background: rgba(73, 76, 95, .46);
+}
+.workplace .bb8-body-container .bb8-body
+{
+    position: relative; 
+
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+    overflow: hidden;
+
+    width: 280px;
+    height: 280px;
+
+    border: 10px solid #494c5f;
+    border-radius: 50%;
+}
+.workplace .bb8-body-container .bb8-body .orange_circles
+{
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+
+    width: 130px;
+    height: 130px;
+
+    border: 8px solid #494c5f;
+    border-radius: 50%;
+    background: #c16d3e;
+
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+            align-items: center;
+}
+.workplace .bb8-body-container .bb8-body .orange_circles .inner_circle
+{
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+
+    width: 90px;
+    height: 90px;
+
+    content: '';
+
+    border: 7px solid #494c5f;
+    border-radius: 50%;
+    background: #d4d4d4; 
+
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+            align-items: center;
+}
+.workplace .bb8-body-container .bb8-body .orange_circles .inner_circle .inner_inner_circle
+{
+    width: 45px;
+    height: 45px;
+
+    border: 6px solid #494c5f;
+    border-radius: 50%;
+    background: #b2c0c9;
+}
+.workplace .bb8-body-container .bb8-body .orange_circles .square_jag
+{
+    position: absolute;
+
+    width: 22px;
+    height: 16px;
+
+    content: '';
+
+    border-right: 7px solid #494c5f;
+    border-bottom: 7px solid #494c5f;
+    border-left: 7px solid #494c5f;
+    border-radius: 6px;
+    background: #c16d3e;
+}
+.workplace .bb8-body-container .bb8-body .one
+{
+    position: absolute;
+    top: 53px;
+    left: -55px;
+}
+.workplace .bb8-body-container .bb8-body .one .square_jag.first
+{
+    top: 34px;
+    left: 81px; 
+
+    -webkit-transform: rotate(67deg);
+            transform: rotate(67deg);
+}
+.workplace .bb8-body-container .bb8-body .one .square_jag.second
+{
+    top: 83px;
+    left: 61px;
+
+    -webkit-transform: rotate(155deg);
+            transform: rotate(155deg);
+}
+.workplace .bb8-body-container .bb8-body .two
+{
+    position: absolute;
+    top: 7px;
+    left: 170px;
+}
+.workplace .bb8-body-container .bb8-body .two .square_jag.first
+{
+    top: 41px;
+    left: 9px;
+
+    -webkit-transform: rotate(288deg);
+            transform: rotate(288deg);
+}
+.workplace .bb8-body-container .bb8-body .two .square_jag.second
+{
+    top: 85px;
+    left: 35px;
+
+    -webkit-transform: rotate(200deg);
+            transform: rotate(200deg);
+}
+.workplace .bb8-body-container .bb8-body .three
+{
+    position: absolute;
+    bottom: -54px;
+    left: 86px;
+}
+.workplace .bb8-body-container .bb8-body .three .square_jag.first
+{
+    top: 41px;
+    left: 9px;
+
+    -webkit-transform: rotate(288deg);
+            transform: rotate(288deg);
+}
+.workplace .bb8-body-container .bb8-body .three .square_jag.second
+{
+    top: 24px;
+    left: 73px;
+
+    -webkit-transform: rotate(410deg);
+            transform: rotate(410deg);
+}
+.workplace .bb8-body-container .bb8-body .line
+{
+    position: relative;
+    z-index: 0;
+    top: 70px;
+    left: 59px; 
+
+    width: 116px;
+    height: 10px;
+
+    -webkit-transform: rotate(-8deg);
+            transform: rotate(-8deg);
+
+    background: #494c5f;
+}
+.workplace .bb8-body-container .bb8-body .line:before
+{
+    position: absolute;
+    z-index: 0;
+    top: 105px;
+    left: -31px;
+
+    width: 74px;
+    height: 10px;
+
+    content: '';
+    -webkit-transform: rotate(53deg);
+            transform: rotate(53deg);
+
+    background: #494c5f;
+}
+.workplace .bb8-body-container .bb8-body .line:after
+{
+    position: absolute;
+    z-index: 0;
+    top: 99px;
+    left: 87px;
+
+    width: 74px;
+    height: 10px;
+
+    content: '';
+    -webkit-transform: rotate(128deg);
+            transform: rotate(128deg);
+
+    background: #494c5f;
+}
+.workplace .bb8-body-container .bb8-body .disc
+{
+    position: absolute;
+    top: 45px;
+    left: 59px;
+
+    width: 15px;
+    height: 15px;
+
+    content: '';
+
+    border: 6px solid #494c5f;
+    border-radius: 50%; 
+    background: #fff;
+}
+.workplace .bb8-body-container .bb8-body .disc.two
+{
+    top: 30px; 
+    left: 150px;
+}
+.workplace .bb8-body-container .bb8-body .disc.three
+{
+    left: 20px;
+}
+.workplace .bb8-body-container .bb8-body .disc.four
+{
+    left: 90px;
+}
+.workplace .bb8-body-container .bb8-body .disc.five
+{
+    top: 95px;
+}
+.workplace .bb8-body-container .bb8-body .disc.six
+{
+    top: 192px;
+    left: 11px;
+}
+.workplace .bb8-body-container .bb8-body .disc.seven
+{
+    top: 240px;
+    left: 64px;
+}
+.workplace .bb8-body-container .bb8-body .disc.eight
+{
+    top: 149px;
+    left: 251px;
+}
+.workplace .bb8-body-container .bb8-body .disc.nine
+{
+    top: 211px;
+    left: 220px;
+}
+
+@-webkit-keyframes rotating
+{
+    from
+    {
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+    }
+    to
+    {
+        -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+    }
+}
+
+@keyframes rotating
+{
+    from
+    {
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+    }
+    to
+    {
+        -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+    }
+}
+
+@keyframes fade
+{
+    from
+    {
+        opacity: 0;
+    }
+    to
+    {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fade
+{
+    from
+    {
+        opacity: 0;
+    }
+    to
+    {
+        opacity: 1;
+    }
+}
+.workplace .rotating
+{
+    -webkit-animation: rotating 1s cubic-bezier(.58, .03, 0, 1.16) infinite;
+            animation: rotating 1s cubic-bezier(.58, .03, 0, 1.16) infinite;
+}
+.workplace .fade
+{
+    -webkit-animation: fade 1s cubic-bezier(.4, 0, 1, 1) infinite;
+            animation: fade 1s cubic-bezier(.4, 0, 1, 1) infinite;
+}
