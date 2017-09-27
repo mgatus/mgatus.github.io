@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>KMC Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+  </head>
+  <body>
+    <div id="app">
+        <table v-cloak>
+          <thead>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Company</th>
+            <th>Email</th>
+            <th>Registered</th>
+            <th>Greeting</th>
+          </thead>
+          <tbody>
+            <tr v-for="person in persons">
+              <td>{{person.name}}</td>
+              <td>{{person.gender}}</td>
+              <td>{{person.Company}}</td>
+              <td>{{person.email}}</td>
+              <td>{{person.registered}}</td>
+              <td>{{person.greeting}}</td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+
+    <script src="assets/js/vue.js"></script>
+    <script src="assets/js/axios.js"></script>
+    <script type="text/javascript" src="assets/js/app.js"></script>
+  </body>
+</html>
