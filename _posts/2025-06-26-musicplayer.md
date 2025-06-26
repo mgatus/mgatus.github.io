@@ -1,32 +1,33 @@
 ---
 layout: post
-title: Simple Music Player
+title: Music Player (Vue.js + Vite)
 permalink: /posts/musicplayer/
-date: 2025-06-26 19:40:00 +08:00
+date: 2025-06-26 19:45:00 +08:00
 image: /images/featured/musicplayer.png
-meta: A clean and functional music player built with HTML, CSS, and JavaScript.
+meta: A responsive and interactive music player built using Vue.js and Vite.
 ---
 
-The Simple Music Player is a lightweight audio interface that lets users play, pause, and switch between tracks with a clean and intuitive layout.
+The Music Player is a Vue.js-based app that offers a simple yet dynamic way to play and switch between audio tracks with a modern UI and smooth user experience.
 --more--
-Built using vanilla HTML, CSS, and JavaScript, this project demonstrates how to create a functional music player without relying on any frameworks or external libraries. It includes basic controls and dynamic track information updates.
+Built using Vue 3 and Vite, this project showcases reactive data handling, component-based architecture, and clean audio control logic. It’s designed to be lightweight, responsive, and user-friendly — ideal for showcasing core Vue skills.
 
 Live Demo: [https://mgatus.github.io/musicplayer/](https://mgatus.github.io/musicplayer/)
 
 ## 🛠️ Tech Used
+- Vue.js 3 (Composition API)
+- Vite for fast development and build
 - HTML5 `<audio>` element
-- CSS3 for layout and styling
-- JavaScript for playback logic and interactivity
+- Scoped CSS modules
 
 ## 🎵 Features
-- Play, pause, and skip track controls
-- Display current song title and artist
-- Visual highlight of active track
-- Responsive UI that adapts to screen sizes
+- Play, pause, and skip between multiple tracks
+- Display of current song title and artist
+- Simple playlist management using reactive arrays
+- Responsive layout and clean design
 
 ## 💡 How It Works
-The player uses JavaScript to control audio playback and update the UI based on user interaction. Track data is stored in an array, and the player dynamically updates the current song info as users navigate through the playlist.
+Each track is defined in a reactive array, and Vue’s reactivity system updates the UI in real-time. The audio element is controlled via refs and event bindings, while each control is wrapped in modular Vue components for maintainability.
 
 ---
 
-A simple yet effective demo of how to build a custom music player from scratch using core web technologies.
+A smooth and minimalistic Vue.js project that demonstrates how to build a custom music player UI with reactivity and style.
