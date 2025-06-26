@@ -1,4 +1,4 @@
-<h2 class="section-title"><i class="fa fa-book"></i>Journal</h2>
+<h2 class="section-title"><i class="fa fa-book"></i>Projects and Journals</h2>
 <div class="posts">
     <div class="grid">
         {% for post in paginator.posts %}
@@ -10,7 +10,7 @@
                   <img src="{{ site.baseurl }}/images/featured/default.jpg" />
                 {% endif %}
                 <figcaption>
-                    <h2>{{ post.title }}</h2>
+                    <h2><strong>{{ post.title }}</strong></h2>
                     <p>{{ post.meta }}</p>
                     <!-- <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a> -->
                 </figcaption>

@@ -20,6 +20,10 @@
   width: 100%;
 }
 
+* {
+  line-height: normal;
+}
+
 h1, h2, h3, h4, h5, h6 {
   // font-family: $helveticaNeue;
   // color: $darkerGray;
@@ -83,6 +87,10 @@ ol {
 
 ol ul, ul ol, ul ul, ol ol {
   margin: 0;
+}
+
+li {
+  margin: 1rem 0;
 }
 
 ul ul, ol ul {
