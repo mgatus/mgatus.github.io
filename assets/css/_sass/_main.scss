@@ -299,6 +299,19 @@ p {
     }
 }
 .side-blog {
+    
+    .posts {
+        display: flex;
+        flex-direction: column;
+
+        .pagination {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    }
+
     width: 30%;
     padding: 40px;
     background: #fff;
@@ -346,6 +359,7 @@ p {
             -o-border-radius: 50%;
         }
     }
+
     h1 {
         font-size: 20px;
     }
