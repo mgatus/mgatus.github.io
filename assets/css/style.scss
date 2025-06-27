@@ -1,13 +1,14 @@
 ---
 ---
-
 //
 // IMPORTS
 //
 
-@import "reset";
-@import "variables";
-@import "main";
+@use "reset";
+@use "variables";
+@use "main";
+@use "highlights";
+@use "svg-icons";
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -25,7 +26,12 @@
 }
 
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   // font-family: $helveticaNeue;
   // color: $darkerGray;
   // font-weight: bold;
@@ -34,7 +40,7 @@ h1, h2, h3, h4, h5, h6 {
   // margin: 1em 0 15px;
   // padding: 0;
 
-  @include mobile {
+  @include variables.mobile {
     line-height: 1.4;
   }
 }
@@ -64,16 +70,19 @@ p {
 }
 
 a {
-  color: $blue;
+  color: variables.$blue;
   text-decoration: none;
-	cursor: pointer;
-  &:hover, &:active {
+  cursor: pointer;
+
+  &:hover,
+  &:active {
     color: #424242 !important;
     text-decoration: none;
   }
 }
 
-ul, ol {
+ul,
+ol {
   margin: 15px 0;
   padding-left: 30px;
 }
@@ -86,7 +95,10 @@ ol {
   list-style-type: decimal;
 }
 
-ol ul, ul ol, ul ul, ol ol {
+ol ul,
+ul ol,
+ul ul,
+ol ol {
   margin: 0;
 }
 
@@ -94,15 +106,18 @@ li {
   margin: 1rem 0;
 }
 
-ul ul, ol ul {
+ul ul,
+ol ul {
   list-style-type: circle;
 }
 
-em, i {
+em,
+i {
   font-style: italic;
 }
 
-strong, b {
+strong,
+b {
   font-weight: bold;
 }
 
@@ -117,32 +132,31 @@ img {
 
 .date {
   font-style: italic;
-  color: $gray;
+  color: variables.$gray;
 }
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: $black;
-  background: $lightGray;
+  color: variables.$black;
+  background: variables.$lightGray;
 }
+
 ::selection {
-  color: $black;
-  background: $lightGray;
+  color: variables.$black;
+  background: variables.$lightGray;
 }
 
 // Nicolas Gallagher's micro clearfix hack
 // http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
 .clearfix:after {
-    content: " ";
-    display: table;
+  content: " ";
+  display: table;
 }
 
 .clearfix:after {
-    clear: both;
+  clear: both;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
-@import "highlights";
-@import "svg-icons";
