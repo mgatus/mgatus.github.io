@@ -4,11 +4,11 @@
 // IMPORTS
 //
 
-@use "reset";
-@use "variables";
-@use "main";
-@use "highlights";
-@use "svg-icons";
+@import "reset";
+@import "variables";
+@import "main";
+@import "highlights";
+@import "svg-icons";
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -40,7 +40,7 @@ h6 {
   // margin: 1em 0 15px;
   // padding: 0;
 
-  @include variables.mobile {
+  @include mobile {
     line-height: 1.4;
   }
 }
@@ -70,7 +70,7 @@ p {
 }
 
 a {
-  color: variables.$blue;
+  color: $blue;
   text-decoration: none;
   cursor: pointer;
 
@@ -132,18 +132,18 @@ img {
 
 .date {
   font-style: italic;
-  color: variables.$gray;
+  color: $gray;
 }
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: variables.$black;
-  background: variables.$lightGray;
+  color: $black;
+  background: $lightGray;
 }
 
 ::selection {
-  color: variables.$black;
-  background: variables.$lightGray;
+  color: $black;
+  background: $lightGray;
 }
 
 // Nicolas Gallagher's micro clearfix hack
