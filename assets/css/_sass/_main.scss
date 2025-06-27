@@ -7,6 +7,10 @@ $sidecolor: #383838;
 // $maincolor: #2E3F4C;
 // $maincolor: #333;
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     padding: 0;
     color: #545E6C;
